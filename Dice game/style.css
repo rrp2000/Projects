@@ -1,0 +1,40 @@
+body
+{
+    justify-content: center;
+    text-align: center;
+}
+.dice
+{
+    background-color: black;
+    height: 500px;
+    width: auto;
+    margin: auto;
+    
+}
+
+.result
+{
+    display: flex;
+    justify-content: center;
+}
+
+#dice1
+{
+    margin-top: 50px;
+    height: 200px;
+    padding-right: 75px;
+}
+
+#dice2
+{
+    margin-top: 50px;
+    height: 200px;
+    
+}
+
+h1
+{
+    color: aliceblue;
+    text-size-adjust: 300px;
+    font-size: 100px;
+}
