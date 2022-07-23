@@ -62,7 +62,6 @@ const getUrl = async function (req, res) {
     if (!shortId.isValid(code)) return res.status(400).send({ status: false, message: "Pls Enter Urlcode In valid Format" })
     let url = await GET_ASYNC(`${req.params.urlCode}`)
     if (url) {
-      console.log(url);
       res.redirect(url)
     } else {
       let Url = await urlModel.findOne({ urlCode: code })
